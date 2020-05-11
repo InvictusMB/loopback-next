@@ -186,11 +186,11 @@ Where:
 Specify filters in
 the [HTTP query string](http://en.wikipedia.org/wiki/Query_string):
 
-`/modelName?filter=[filterType1]=val1&filter[filterType2]=val2...`
+`/modelName?filter[filterType1]=val1&filter[filterType2]=val2...`
 
 or
 
-`/modelName/id?filter=[filterType1]=val1&filter[filterType2]=val2...`
+`/modelName/id?filter[filterType1]=val1&filter[filterType2]=val2...`
 
 The number of filters that you can apply to a single request is limited only by
 the maximum URL length, which generally depends on the client used.
